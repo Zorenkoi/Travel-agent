@@ -1,0 +1,42 @@
+.hint-discover {
+    padding: 12px;
+
+    display: inline-flex;
+    column-gap: 16px;
+    
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
+
+    @media(max-width: 435px){
+        display: none;
+    }
+}
+.hint-discover__picture {
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.hint-discover__info {
+}
+.hint-discover__top {
+    display: flex;
+    column-gap: 38px;
+    margin-bottom: 4px;
+    
+    & h3{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 150%; 
+    }
+}
+.hint-discover__rating {
+    display: flex;
+    align-items: center;
+    column-gap: 2.5px;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+}

@@ -1,0 +1,78 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+    font-family: var(--font-main);
+}
+
+.title1{
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	@media(max-width: 1024px){
+		font-size: 59px;
+	}
+	@media(max-width: 755px){
+		font-size: 50px;
+	}
+	@media(max-width: 450px){
+		font-size: 40px;
+	}
+}
+.title2{
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+
+	@media(max-width: 500px){
+		font-size: 30px;
+	}
+	@media(max-width: 400px){
+		font-size: 25px;
+	}
+	@media(max-width: 300px){
+		font-size: 20px;
+	}
+}
+
+.text{
+	color: #909090;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 150%; 
+
+	@media(max-width: 500px){
+		font-size: 16px;
+	}
+}
+
+.muted{
+	color: var(--text-muted);
+}
+
+.price {
+    color: var(--text-muted);
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 150%;
+    font-style: normal;
+
+    strong{
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    em{
+        color: var(--accent);
+        font-style: normal;
+        font-weight: 500;
+    }
+}
